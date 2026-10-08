@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background: #bedcfa;
+  color: #24292f;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #24292f;
+  font-size: 32px;
+}
+
+#first {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#first div {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #050505;
+}
+
+/* Card hover effect */
+#first > div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile image */
+#first img {
+  width: 125px;
+  height: 125px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 1.5px solid #1e5797;
+}
+
+/* Username */
+#first h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #24292f;
+}
+
+/* Profile button */
+#first a {
+  display: inline-block;
+  text-decoration: none;
+  background: #e65c00;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  /* transition: background 0.3s ease; */
+}
+
+#first a:hover {
+  background: #974900;
+}
